@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+ 
+
+/* h1{
+    margin-top: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+h2{
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+} */
+
+.container{
+    width:100%;
+   
+}
+.but{
+    width:50px;
+    border:2x solid black;
+    height:40px;
+}
+header{
+    width:100%;
+    background-color: brown;
+    height:80px;
+     padding:0px 20px;
+    font-size: 30px;
+    /* text-align: center; */
+   display:flex;
+    justify-content: space-around;
+    align-items:center;
+    position: sticky;
+    top:0;
+    
+}
+
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+ nav ul li{
+    display:inline-block;
+    
+} 
+nav ul li a{
+     display:block; 
+    text-decoration: none;
+    color:white;
+    padding:10px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition:0.5s;
+}
+nav ul li a:hover{
+    background-color: white;
+    color:black;
+}
+#icon-bar{
+    width:100px;
+    height:80px;
+    
+    align-items:center;
+    display:flex;
+    justify-content: space-between;
+    padding-right: 20px;
+   
+}
+#icon-bar a{
+    font-size: 30px;
+    color:white;
+    transition:1s;
+}
+#icon-bar a:hover{
+    background-color:aqua;
+}
+.box{
+    margin-top:20px;
+    margin-left:40px;
+    width:85%;
+    height:80px;
+    margin-right: 20px;
+    background-color: grey;
+}
+
+section{
+
+    width:100%;
+    height:100vh;
+   display:grid;
+   justify-content: center;
+   grid-template-columns: repeat(3,auto);
+   grid-gap:1rem;
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   margin-top: 15px;
+    
+  
+   
+}
+.card{
+    margin-left: 10px;
+    width:400px;
+    height:350px;
+   
+   
+   
+    
+    display:block;
+   
+    box-shadow: 10px 10px 5px grey;
+   
+   
+    
+}
+.card:hover{
+  
+    background-color: rgb(194, 67, 233);
+    box-shadow: 10px 10px 5px rgb(96, 97, 99);
+    transition: 0.5s;
+    
+    
+}
+img{
+    margin-top:10px;
+    width:400px;
+    height:350px;
+}
+.sec2{
+    width:100%;
+    height:60vh;
+    background:url("https://fineartmultiple.com/media/product/ed2/mount-everest-and-nuptse-nepal-rbo-41-1514541009-5-1ap-8e8.jpg") no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.con{
+    width:600px;
+    height:45vh;
+    border:2px solid white;
+
+
+}
+.footer{
+    width:100%;
+    height:40vh;
+    background-color: rgb(22, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    
+}
+div ul{
+    list-style:none;
+    
+}
+
+div ul li a{
+     display:block; 
+    text-decoration: none;
+    color:white;
+    padding:10px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition:0.5s;
+}
+div ul li a:hover{
+    background-color: white;
+    color:black;
+}
+.ic{
+    display:flex;
+}
+.ico{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    border:2px solid white; 
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+  align-items: center;
+    
+}
+.ico a{
+    font-size: 30px;
+    color:white;
+    transition:1s;
+ 
+}
+.ico:hover{
+    background-color:aqua;
+    transition:1s;
+}
+.email{
+    width:100px;
+    height:50px;
+    border:2px solid white;
+}
+.email:hover{
+    background-color: aqua;
+}
+
+
